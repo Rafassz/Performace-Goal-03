@@ -7,12 +7,13 @@ function Navbar() {
             			   bg-indigo-900 text-white'>
             
                 <div className="container flex justify-between text-lg">
-                    Farm+
+                    <Link to='/home'>Farm+</Link>
 
                     <div className='flex gap-4'>
                         
-                        <Link to= '/'>Categoria</Link>
-                        Cadastrar Categoria
+                        <Link to='/categoria'>Categoria</Link>
+                        <Link to='/cadastrar'>Cadastrar Categoria</Link>
+                        
                     </div>
                 </div>
             </div>
