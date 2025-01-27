@@ -10,7 +10,7 @@ function Home() {
 
                     <div className="max-w-7xl flex flex-col items-center">
                         <img
-                            src="https://i.imgur.com/VpwApCU.png"
+                            src="https://seeklogo.com/images/F/farmacia-logo-57EBC143C7-seeklogo.com.png"
                             alt="Imagem da Página Home"
                             width="400px"
                         />
