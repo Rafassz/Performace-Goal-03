@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Navbar() {
     return (
         <>
@@ -8,7 +10,8 @@ function Navbar() {
                     Farm+
 
                     <div className='flex gap-4'>
-                        Categoria
+                        
+                        <Link to= '/'>Categoria</Link>
                         Cadastrar Categoria
                     </div>
                 </div>
